@@ -81,7 +81,7 @@ verify(strpos($html, 'mailto:elcrisol.cali@gmail.com') !== false, 'Current email
 verify(substr_count($html, 'tel:') === 1 && strpos($html, '387') === false, 'Only the approved phone may appear.');
 verify(strpos($html, 'google.com/maps/search/') !== false, 'Address must retain Maps link.');
 verify(strpos($html, '/wp-content/plugins/el-crisol-mantenimiento/assets/logo-transparent.png') !== false, 'Logo URL must be independent of the request path and other plugins.');
-verify(strpos($html, 'styles.css?ver=2.0.0') !== false, 'Styles must use the new plugin version.');
+verify(strpos($html, 'styles.css?ver=2.0.1') !== false, 'Styles must use the new plugin version.');
 $options['unrelated_setting'] = 'keep';
 define('WP_UNINSTALL_PLUGIN', true);
 require dirname(__DIR__) . '/el-crisol-mantenimiento/uninstall.php';

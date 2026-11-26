@@ -2,7 +2,7 @@
 /**
  * Plugin Name: El Crisol - mantenimiento
  * Description: Activa o desactiva la página de mantenimiento de El Crisol desde Ajustes, sin otros plugins.
- * Version: 2.0.0
+ * Version: 2.0.1
  * Requires at least: 4.7
  * Requires PHP: 5.6
  * License: GPL-2.0-or-later

@@ -11,3 +11,5 @@ __pycache__/
 *.key
 .openai/
 .hallmark/
+playwright-report/
+test-results/
