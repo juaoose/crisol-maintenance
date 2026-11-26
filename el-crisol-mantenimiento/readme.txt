@@ -1,7 +1,7 @@
 === El Crisol - mantenimiento ===
 Requires at least: 4.7
 Requires PHP: 5.6
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 
 Página amarilla de mantenimiento de Importaciones El Crisol, con logo y datos
@@ -24,6 +24,8 @@ Sí. Los administradores con sesión iniciada ven la web normal.
 Únicamente el estado del interruptor. Al desinstalar se elimina ese ajuste.
 
 == Changelog ==
+= 2.0.1 =
+Ajusta el espaciado, el logo y la tipografía en pantallas pequeñas para mostrar la plantilla completa sin scroll cuando hay espacio suficiente. Mantiene el desplazamiento cuando se amplía el texto o la pantalla es demasiado corta.
 = 2.0.0 =
 Funciona de forma independiente y añade un interruptor propio en Ajustes.
 = 1.0.0 =

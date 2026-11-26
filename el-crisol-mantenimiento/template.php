@@ -11,14 +11,14 @@ if (!defined('ABSPATH')) {
   <meta name="description" content="Estamos trabajando para restablecer nuestro sitio web. Comunícate con Importaciones El Crisol en Cali por teléfono o correo electrónico.">
   <meta name="theme-color" content="#ffde00">
   <title>Importaciones El Crisol | Contáctanos</title>
-  <link rel="stylesheet" href="<?php echo esc_url(plugins_url('styles.css', __FILE__) . '?ver=2.0.0'); ?>">
+  <link rel="stylesheet" href="<?php echo esc_url(plugins_url('styles.css', __FILE__) . '?ver=2.0.1'); ?>">
 </head>
 <body>
   <main>
     <div class="wordmark">
       <img class="logo" src="<?php echo esc_url(plugins_url('assets/logo-transparent.png', __FILE__)); ?>" width="2172" height="724" alt="Importaciones El Crisol Ltda. Ferretería">
     </div>
-    <h1>Estamos trabajando para<br>restablecer nuestro sitio web.</h1>
+    <h1>Estamos trabajando para restablecer nuestro sitio web.</h1>
     <p>Mientras solucionamos los inconvenientes, seguimos a tu disposición. Contáctanos:</p>
     <address>
       <div class="phones"><a href="tel:+576024454545">(602) 445 4545</a></div>

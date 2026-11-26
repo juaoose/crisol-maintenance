@@ -35,3 +35,15 @@ Mínimos declarados: WordPress 4.7 y PHP 5.6. La matriz de pruebas es PHP 7.4 y 
 ## Licencia
 
 El código se distribuye bajo **GPL-2.0-or-later**; consulta [LICENSE](LICENSE). El nombre y el logo de El Crisol siguen siendo marcas de sus respectivos propietarios; la licencia no concede derechos sobre esas marcas.
+
+## Pruebas de diseño responsive
+
+```sh
+npm ci
+npx playwright install chromium
+npm run test:layout
+```
+
+Necesitan PHP en el PATH. Las pruebas renderizan `template.php` con los mismos CSS e imagen que se incluyen en el ZIP. Comprueban que todo el contenido quepa sin scroll a tamaño de texto normal en 320×480, 320×568, 360×640, 375×667, 390×664, 768×1024 y 1280×800. También verifican que el contenido siga accesible en una pantalla aún más corta y con texto al 200%, donde se permite scroll. El cuerpo mantiene al menos 16 px con el tamaño de texto normal.
+
+CI ejecuta estas nueve pruebas en Chromium antes de generar el ZIP y conserva capturas y un informe HTML en los artifacts `maintenance-layout-report-*`.
