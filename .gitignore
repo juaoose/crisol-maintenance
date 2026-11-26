@@ -1,0 +1,13 @@
+.DS_Store
+build/
+node_modules/
+__pycache__/
+*.pyc
+*.zip
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.openai/
+.hallmark/
