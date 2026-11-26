@@ -1,0 +1,11 @@
+{
+  "name": "crisol-maintenance",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "test:layout": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.61.0"
+  }
+}
